@@ -24,7 +24,7 @@
  }
 
  .escola-imagem{
-    width: 17%;
+    width: 20%;
  }
 
  .escola{
@@ -49,19 +49,31 @@
    text-align: center;
  }
 
-.estudante-imagem{
-     width: 8%;
+.estudantes-imagem{
+     width: 35%;
  }
 
- .estudante-icone{
+ .estudantes-icone{
    width: 35px;
  }
 
- .estudante-div{
+ .estudantes-div{
    text-align: center;
    padding: 20px 20px;
  }
 
- .estudante{
-   
+ .estudantes{
+     background-image: linear-gradient(#FFFFFF,#8A8484);
+ }
+
+ .estudantes-titulo{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 32px;
+    color: crimson;
+ }
+
+ .estudantes-todos{
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
  }
